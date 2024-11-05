@@ -42,6 +42,9 @@ This project contains a payment module for WHMCS to integrate with Garanti BBVA 
 - **SSL is Required:** SSL is mandatory for collecting credit card information securely.
 - **PCI-DSS Compliance:** Transactions requiring direct collection of card details necessitate PCI-DSS compliance. In this module, card details are securely transferred directly to Garanti BBVA’s API, so ensuring security measures are in place is essential.
 
+## Design
+- It’s recommended to change your design in the `garantibbva.php` file.
+
 ## Important Notes
 - **Test Mode:** It’s recommended to conduct initial tests using Garanti BBVA’s test environment.
 - **Updates:** Check and update module files as needed in case of updates to WHMCS or Garanti BBVA’s API.
