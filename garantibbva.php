@@ -91,7 +91,7 @@ function garantibbva_link($params) {
     $html .= '<input type="hidden" name="customeripaddress" id="customeripaddress" value="8.8.8.8" />';
     
 
-    // YOU CAN EDIT THIS AREA START                 (PLEASE SAVE ELEMENT NAMES WHILE CHANGING)
+    // YOU CAN EDIT THIS AREA START                 (PLEASE KEEP SAME ELEMENTS NAMES WHILE CHANGING DESIGN)
     //<!--Müşteri Kart Üzerindeki Adı--> card holder 
     $html .= '<input name="cardholdername" value="Test User" />';
     //<!--Müşteri Kart Numarası-->  card number max 16
